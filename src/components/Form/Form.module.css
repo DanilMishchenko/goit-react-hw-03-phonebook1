@@ -1,0 +1,37 @@
+.Phonebook__form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 15px;
+  border: 1px solid black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.Phonebook__label {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.Phonebook__label span {
+  margin-bottom: 10px;
+}
+
+.Phonebook__label input {
+  outline: none;
+  height: 24px;
+}
+
+.Phonebook__button {
+  max-width: 120px;
+  min-height: 30px;
+  margin-top: 20px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+  background-color: #e2e2db;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}

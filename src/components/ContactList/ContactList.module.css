@@ -1,0 +1,29 @@
+.Contacts__list {
+  list-style: none;
+  padding: 10px 5px 15px;
+  border: 1px solid black;
+}
+
+.Contacts__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.Contacts__data {
+  margin: 5px;
+}
+
+.Contacts__button {
+  max-width: 120px;
+  max-height: 30px;
+  align-items: center;
+  font-weight: 500;
+  background-color: #e2e2db;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}

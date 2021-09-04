@@ -1,0 +1,9 @@
+.Filter__label {
+  display: flex;
+  flex-direction: column;
+}
+
+.Filter__label input {
+  outline: none;
+  height: 24px;
+}
